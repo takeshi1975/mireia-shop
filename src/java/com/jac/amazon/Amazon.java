@@ -45,7 +45,7 @@ public class Amazon {
 
     private String endpoint = "webservices.amazon.com"; // must be lowercase
     private String awsAccessKeyId = "AKIAJGK33UXRN7XC6B6Q";
-    private String awsSecretKey = "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";
+    private String awsSecretKey = "L8";
 
     private SecretKeySpec secretKeySpec = null;
     private Mac mac = null;
