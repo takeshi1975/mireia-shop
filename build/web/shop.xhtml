@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>        
+    </h:head>
+    <h:body>       
+        <ui:composition template="layout.xhtml">
+            <ui:define name="header">
+                <h2>&nbsp;&nbsp;Mireia's Shop!</h2>
+            </ui:define>
+            <ui:define name="content">
+                <h:form id="form">
+                <div id="center">
+                    <label>Buscador</label>
+                    <h:inputText id="keywords" value="${shopBean.keywords}"/>
+                    <h:commandButton value="find" action="${shopBean.find}">                        
+                    </h:commandButton>    
+                    <h:commandButton value="test_URL" action="${shopBean.test}"/>
+                    <h:commandButton value="LookUp" action="${shopBean.lookUp}"/>
+                    <div>
+                        <p:panel styleClass="${shopBean.showLinks?'dovisible':'dohidden'}">
+                            <ui:repeat value="${shopBean.links}" var="link">
+                            <span width="25">    
+                                <h:commandLink value="#{link}" action="${shopBean.find}">    
+                                    <f:param name="page" value="#{link}" />
+                                </h:commandLink>    
+                            </span>                    
+                            </ui:repeat>
+                        </p:panel>
+                    </div>
+                </div>    
+                <div id="table">
+                    <div id="count">
+                        Results size: ${shopBean.count}<br/>
+                    </div>
+                    
+                    <p:dataTable var="item" value="${shopBean.items}">  
+                        <p:column headerText="" style="width:75px">
+                            <h:link outcome="detail">
+                                <img src="${item.smallImage.URL}"/> 
+                                <f:param name="id" value="#{item.ASIN}" />
+                            </h:link>                                
+                        </p:column>
+                        <p:column headerText="Title">  
+                            <h:outputText value="${item.itemAttributes.title}" />  
+                        </p:column>
+                        <p:column headerText="ASIN">  
+                            <h:outputText value="#{item.ASIN}" />  
+                        </p:column>
+                        <p:column headerText="Price">
+                            <h:outputText value="#{item.offerSummary.lowestNewPrice.formattedPrice}" />                              
+                        </p:column>
+                    </p:dataTable>                       
+                </div>
+                </h:form>    
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

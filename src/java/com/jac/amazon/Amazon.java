@@ -49,7 +49,8 @@ public class Amazon {
     private static final String REQUEST_METHOD = "GET";
 
     private String endpoint = "webservices.amazon.com"; // must be lowercase
-  
+    private String awsAccessKeyId = "AKIAJGK33UXRN7XC6B6Q";
+    private String awsSecretKey = "L8";
     private SecretKeySpec secretKeySpec = null;
     private Mac mac = null;
     private int count = 0;
