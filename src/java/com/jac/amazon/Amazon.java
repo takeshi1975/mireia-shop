@@ -1,5 +1,6 @@
 package com.jac.amazon;
 
+import com.jac.amazon.product.Product;
 import com.jac.amazon.srcgen.Item;
 import com.jac.amazon.srcgen.ItemSearchResponse;
 import java.io.UnsupportedEncodingException;
@@ -24,14 +25,18 @@ import javax.crypto.spec.SecretKeySpec;
 
 import com.sun.org.apache.xml.internal.security.utils.Base64;
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Properties;
+import java.util.Scanner;
 import java.util.stream.Collectors;
+import static javafx.scene.input.KeyCode.P;
 import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import org.apache.log4j.Logger;
 
@@ -44,19 +49,39 @@ public class Amazon {
     private static final String REQUEST_METHOD = "GET";
 
     private String endpoint = "webservices.amazon.com"; // must be lowercase
-    private String awsAccessKeyId = "AKIAJGK33UXRN7XC6B6Q";
-    private String awsSecretKey = "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";
-
+  
     private SecretKeySpec secretKeySpec = null;
     private Mac mac = null;
+    private int count = 0;
+    
 
     public Amazon() throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException {
+        final String _FILE = "shop.properties";
+        
+        ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+        InputStream inputStream = classLoader.getResourceAsStream(_FILE);
+        Properties properties = new Properties();  
+        String awsSecretKey= null;
+        try{
+            properties.load(inputStream);
+            awsSecretKey = properties.getProperty("awsSecretKey");
+        }catch(IOException ioex){
+            log.info(ioex.toString());
+        }            
         byte[] secretyKeyBytes = awsSecretKey.getBytes(UTF8_CHARSET);
         secretKeySpec = new SecretKeySpec(secretyKeyBytes, HMAC_SHA256_ALGORITHM);
         mac = Mac.getInstance(HMAC_SHA256_ALGORITHM);
         mac.init(secretKeySpec);
     }
 
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+        
     public String sign(Map<String, String> params) {
 
         SortedMap<String, String> sortedParamMap = new TreeMap<String, String>(params);
@@ -124,7 +149,7 @@ public class Amazon {
         return out;
     }
 
-    public String process(String keywords) {
+    private String createURLForItemSearch(String keywords, int page) {
 //		String request = "http://webservices.amazon.com/onca/xml?Service=AWSECommerceServic"+
 //	     "e&AWSAccessKeyId="+awsAccessKeyId+"&Operation=ItemLookup&ItemId"+
 //	     "=0679722769&ResponseGroup=ItemAttributes,Offers,Images,Reviews&Ve"+
@@ -134,6 +159,7 @@ public class Amazon {
                 + "&Operation=ItemSearch"
                 + "&AssociateTag=juanjowebsite-20"
                 + "&SearchIndex=All"
+                + "&ItemPage="+page
                 + "&Keywords="+((keywords==null)?"java":keywords)
                 + "&Version=2013-08-01"
                 + "&ResponseGroup=Images, ItemAttributes, Offers";
@@ -163,98 +189,96 @@ public class Amazon {
         String hmac = hmac(paramext);
         String sig = percentEncodeRfc3986(hmac);
         return url + "?" + parameters + "&Signature=" + sig;
-
     }    
 
-    public ItemSearchResponse send() throws Exception {
-        String address = process(null);
-        log.debug(address);
+    private String createURLForItemLookUp(){
+        log.info("Create URL For Item Look Up");
+        String request = "http://webservices.amazon.com/onca/xml?Service=AWSECommerceService&"+
+        "AWSAccessKeyId==AKIAJGK33UXRN7XC6B6Q&"+
+        "Operation=ItemLookup&"+
+        "ItemId=B00008OE6I";
+        String buffer[] = request.split("\\?");
+        String url = buffer[0];
+        buffer = buffer[1].split("&");
+        List<String> paramval = new ArrayList<String>(Arrays.asList(buffer));
+        // Add Time
+        paramval.add("Timestamp=" + timestamp());
+        // Sort
+        Collections.sort(paramval);
+        //  Canonical String (rejoin)
+        String parameters = "";
+        for (String pv : paramval) {
+            String subbuff[] = pv.split("=");
+            parameters += subbuff[0] + "=" + percentEncodeRfc3986(subbuff[1]) + "&";
+        }
+        parameters = parameters.substring(0, parameters.length() - 1);
+        log.debug(parameters);
+        String paramext = "GET\nwebservices.amazon.com\n/onca/xml\n" + parameters;
+        log.debug(paramext);
+        String hmac = hmac(paramext);
+        String sig = percentEncodeRfc3986(hmac);
+        return url + "?" + parameters + "&Signature=" + sig;
+    }
+    
+    private String send(String address) throws IOException{
         URL url = new URL(address);
         HttpURLConnection httpConnection = (HttpURLConnection) url.openConnection();
-        ItemSearchResponse itemSearch = null;
-        if (httpConnection.getResponseCode() == 200) {
-            log.debug("OK:");
-            JAXBContext context = JAXBContext.newInstance(ItemSearchResponse.class);    
-            Unmarshaller unmarshaller = context.createUnmarshaller();                        
+        if (httpConnection.getResponseCode() == HttpURLConnection.HTTP_OK){
             String result = new BufferedReader(new InputStreamReader(httpConnection.getInputStream()))
                     .lines().collect(Collectors.joining("\n"));
             String xml = new XmlFormatter().format(result);                
             log.debug(xml);  
-            System.out.println("Voy a escribir el fichero");
-            FileWriter f = new FileWriter("/home/juanjo/jaxb-ri/bin/Amazon.xml");        
-            try{
-                f.write(xml);
-                f.flush();
-                log.debug("Se ha escrito el fichero");
-            }finally{
-                f.close();
-            }        
-            StringReader xmlReader = new StringReader(xml);
-            itemSearch = (ItemSearchResponse)unmarshaller.unmarshal(xmlReader);            
-        } else {
-            System.out.println("Error:");
-            String result = new BufferedReader(new InputStreamReader(httpConnection.getErrorStream()))
-                    .lines().collect(Collectors.joining("\n"));
-            System.out.println(result);
-        }
-
-        return itemSearch;
+            return xml;
+        } else {            
+            String error = read(httpConnection.getErrorStream());
+            log.error(error);
+            throw new IOException(error);
+        }        
     }
-
-    public List<Item> send(String keywords) {
-        String _FILE = "/home/juanjo/Java/jaxb-ri/bin/Amazon.xml";        
-            
-        try{
-            String address = process(keywords);
-            System.out.println(address);
-            URL url = new URL(address);
-            HttpURLConnection httpConnection = (HttpURLConnection) url.openConnection();
-            ItemSearchResponse itemSearch = null;
-            if (httpConnection.getResponseCode() == 200) {
-                System.out.println("OK:");
-                JAXBContext context = JAXBContext.newInstance(ItemSearchResponse.class);    
-                Unmarshaller unmarshaller = context.createUnmarshaller();                        
-                String result = new BufferedReader(new InputStreamReader(httpConnection.getInputStream()))
-                        .lines().collect(Collectors.joining("\n"));
-                String xml = new XmlFormatter().format(result);                
-                System.out.println(xml);        
-                StringReader xmlReader = new StringReader(xml);
-                itemSearch = (ItemSearchResponse)unmarshaller.unmarshal(xmlReader);                  
-                File f = new File(_FILE);
-                if (!f.exists())
-                    f.createNewFile();
-                FileWriter fw = new FileWriter(f);        
-                try{
-                    fw.write(xml);
-                    fw.flush();
-                    log.debug("Se ha escrito el fichero");
-                }finally{
-                    fw.close();
-                }        
-            } else {
-                System.out.println("Error:");
-                String result = new BufferedReader(new InputStreamReader(httpConnection.getErrorStream()))
-                        .lines().collect(Collectors.joining("\n"));
-                System.out.println(result);
-            }
-            if (itemSearch!=null){                
-                if (itemSearch.getItems()!=null)
-                    return itemSearch.getItems().getItem();
-            }
-       }catch(Exception ex){
-            log.error(ex.toString());
-        }
+    
+    private Object unmarshall(String xml, Class typeclass) throws JAXBException{             
+        JAXBContext context = JAXBContext.newInstance(typeclass);    
+        Unmarshaller unmarshaller = context.createUnmarshaller();                        
+        return  unmarshaller.unmarshal(new StringReader(xml));
+    }
+    
+    private String read(InputStream is){
+        Scanner scanner = new Scanner(is).useDelimiter("\\A");
+        return (scanner.hasNext()?scanner.next():"");
+    }    
+    
+    public ItemSearchResponse performItemSearch() throws Exception {
+        String address = createURLForItemSearch(null,1);
+        log.debug(address);
+        String xml = send(address);        
+        return (ItemSearchResponse)unmarshall(xml, ItemSearchResponse.class);             
+    }    
+    
+    public List<Item> performItemSearch(String keywords, int page) 
+            throws IOException, JAXBException{                
+        String address = createURLForItemSearch(keywords, page);
+        log.debug(address);
+        String xml = send(address);    
+        ItemSearchResponse itemSearchResponse = (ItemSearchResponse) unmarshall(xml, ItemSearchResponse.class);        
+        if (itemSearchResponse!=null && itemSearchResponse.getItems()!=null)
+            return itemSearchResponse.getItems().getItem();     
         return null;
     }
     
-    public static void main(String[] args) throws Exception {
-        ItemSearchResponse itemSearchResponse  = new Amazon().send();
-       
-                
-        for (Item item : itemSearchResponse.getItems().getItem()){
-            System.out.println(item.getOfferSummary().getLowestNewPrice()+"$");
-        }
-            
+    public Product performItemLookUp(String key) 
+               throws IOException, JAXBException{
+        String address = createURLForItemLookUp();
+        log.debug(address);
+        String xml = send(address);
+        log.debug(xml);        
+        Product product =  new Product();
+        // Falta traducir del XML para obtener los datos del producto.
+        // Hay que implementar algo para obtener también la ruta de la foto...
+        product.setId(key);
+        product.setName("La oreja de Van Gogh");
+        product.setDescription("Muñeca de trapo");
+        product.setPicture("http://www.followingthenerd.com/site/wp-content/uploads/Evangeline-Lilly-12.jpg");
+        return product;
     }
-
+               
 }

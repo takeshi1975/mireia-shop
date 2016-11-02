@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>                
+    </h:head>
+    <h:body>       
+        <ui:composition template="layout.xhtml">
+            <ui:define name="header">
+                <h2>Mireia's Shop!</h2>
+            </ui:define>
+            <ui:define name="content">
+                <h:messages/>
+                <f:metadata>
+                    <f:viewParam name="id" value="#{detailBean.product}" 
+                        converter="com.jac.shop.beans.ProductConverter" converterMessage="Unknown product, please use a link from within the system."
+                        required="true" requiredMessage="Bad request, please use a link from within the system."/>
+                </f:metadata>
+                <h:form id="form" rendered="${not empty detailBean.product}">
+                    <p:panel id="product-name">
+                       Name: ${detailBean.product.name}
+                    </p:panel>
+                    <p:panel>
+                        <span id="Image" style="width:500px">
+                        Img:    <img src="${detailBean.product.picture}"/>
+                        </span>    
+                    <p:panel id="product-description">
+                        <div class="container">
+                          Description: ${detailBean.product.description}  
+                        </div>                        
+                    </p:panel>
+                    </p:panel>
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

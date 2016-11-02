@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01">
+  <OperationRequest>
+    <HTTPHeaders>
+      <Header Name="UserAgent" Value="Java/1.8.0_60"/>
+    </HTTPHeaders>
+    <RequestId>e93c1e40-455c-4f18-87a9-37c0742ec609</RequestId>
+    <Arguments>
+      <Argument Name="AWSAccessKeyId" Value="AKIAJGK33UXRN7XC6B6Q"/>
+      <Argument Name="AssociateTag" Value="juanjowebsite-20"/>
+      <Argument Name="Keywords" Value="Pascal"/>
+      <Argument Name="Operation" Value="ItemSearch"/>
+      <Argument Name="ResponseGroup" Value="Images, ItemAttributes"/>
+      <Argument Name="SearchIndex" Value="All"/>
+      <Argument Name="Service" Value="AWSECommerceService"/>
+      <Argument Name="Timestamp" Value="2016-08-21T08:58:54Z"/>
+      <Argument Name="Version" Value="2013-08-01"/>
+      <Argument Name="Signature" Value="DcjPfSQR1gOuqD6Yr/NmrM9sE6fvhqh32mAIv0y5RBo="/>
+    </Arguments>
+    <RequestProcessingTime>0.3280139900000000</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemSearchRequest>
+        <Keywords>Pascal</Keywords>
+        <ResponseGroup>Images</ResponseGroup>
+        <ResponseGroup>ItemAttributes</ResponseGroup>
+        <SearchIndex>All</SearchIndex>
+      </ItemSearchRequest>
+    </Request>
+    <TotalResults>56009</TotalResults>
+    <TotalPages>5601</TotalPages>
+    <MoreSearchResultsUrl>http://www.amazon.com/gp/redirect.html?linkCode=xm2&amp;SubscriptionId=AKIAJGK33UXRN7XC6B6Q&amp;location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fsearch%3Fkeywords%3DPascal%26url%3Dsearch-alias%253Daws-amazon-aps&amp;tag=juanjowebsite-20&amp;creative=386001&amp;camp=2025</MoreSearchResultsUrl>
+    <Item>
+      <ASIN>B00BB2KJL6</ASIN>
+      <DetailPageURL>http://www.amazon.com/Disney-Pascal-Mini-Bean-Plush/dp/B00BB2KJL6%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00BB2KJL6</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Disney-Pascal-Mini-Bean-Plush/dp/tech-data/B00BB2KJL6%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00BB2KJL6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00BB2KJL6%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00BB2KJL6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00BB2KJL6%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00BB2KJL6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00BB2KJL6%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00BB2KJL6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B00BB2KJL6%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00BB2KJL6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B00BB2KJL6%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00BB2KJL6</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B00BB2KJL6%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00BB2KJL6</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL.jpg</URL>
+        <Height Units="pixels">470</Height>
+        <Width Units="pixels">470</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51%2BTrwpypDL.jpg</URL>
+            <Height Units="pixels">470</Height>
+            <Width Units="pixels">470</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Toy</Binding>
+        <Brand>Disney</Brand>
+        <EAN>4385242091846</EAN>
+        <EANList>
+          <EANListElement>4385242091846</EANListElement>
+          <EANListElement>0412630264019</EANListElement>
+          <EANListElement>0843852071091</EANListElement>
+          <EANListElement>0754295468563</EANListElement>
+          <EANListElement>9888374953044</EANListElement>
+          <EANListElement>0781624698421</EANListElement>
+          <EANListElement>0787551442670</EANListElement>
+        </EANList>
+        <Feature>Premium plush is our softest, finest ever!</Feature>
+        <Feature>Embroidered and metallic foil detailings</Feature>
+        <Feature>Part of the Disney Mini Bean Bag Plush Collection</Feature>
+        <Feature>Polyester / plastic beads</Feature>
+        <Feature>8'' L</Feature>
+        <IsAdultProduct>0</IsAdultProduct>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">13</Weight>
+        </ItemDimensions>
+        <Label>Disney</Label>
+        <ListPrice>
+          <Amount>0</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Disney</Manufacturer>
+        <ManufacturerMinimumAge Units="months">36</ManufacturerMinimumAge>
+        <MPN>1263041280006P</MPN>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">362</Height>
+          <Length Units="hundredths-inches">949</Length>
+          <Weight Units="hundredths-pounds">17</Weight>
+          <Width Units="hundredths-inches">728</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>1263041280006P</PartNumber>
+        <ProductGroup>Toy</ProductGroup>
+        <ProductTypeName>TOYS_AND_GAMES</ProductTypeName>
+        <Publisher>Disney</Publisher>
+        <Studio>Disney</Studio>
+        <Title>Disney Pascal Mini Bean Bag Plush - Tangled - 8''</Title>
+        <UPC>412630264019</UPC>
+        <UPCList>
+          <UPCListElement>412630264019</UPCListElement>
+          <UPCListElement>787551442670</UPCListElement>
+          <UPCListElement>781624698421</UPCListElement>
+          <UPCListElement>843852071091</UPCListElement>
+          <UPCListElement>754295468563</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>0140446451</ASIN>
+      <DetailPageURL>http://www.amazon.com/Pensees-Penguin-Classics-Blaise-Pascal/dp/0140446451%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0140446451</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Pensees-Penguin-Classics-Blaise-Pascal/dp/tech-data/0140446451%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0140446451</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0140446451%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0140446451</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0140446451%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0140446451</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0140446451%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0140446451</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/0140446451%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0140446451</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/0140446451%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0140446451</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/0140446451%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0140446451</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">48</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">103</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">323</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51gDF6-FW6L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">19</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51gDF6-FW6L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">47</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51gDF6-FW6L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">47</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51gDF6-FW6L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">70</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51gDF6-FW6L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">101</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51gDF6-FW6L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">316</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71kH2LmrYpL.jpg</URL>
+            <Height Units="pixels">1948</Height>
+            <Width Units="pixels">1230</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41YyyxgtMCL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">23</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41YyyxgtMCL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">57</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41YyyxgtMCL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">57</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41YyyxgtMCL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">84</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41YyyxgtMCL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">122</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41YyyxgtMCL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">382</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/612BhvERlAL.jpg</URL>
+            <Height Units="pixels">1178</Height>
+            <Width Units="pixels">900</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31TOke33h5L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">22</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31TOke33h5L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31TOke33h5L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31TOke33h5L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">82</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31TOke33h5L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">120</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31TOke33h5L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">375</Width>
+          </LargeImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">19</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">48</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">48</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">71</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">103</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41UOOvwnJYL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">323</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Blaise Pascal</Author>
+        <Binding>Paperback</Binding>
+        <Brand>Pascal, Blaise/ Krailsheimer, A. J. (TRN)/ Krailsheimer, A. J.</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>TM-0140446451</CatalogNumberListElement>
+          <CatalogNumberListElement>POTM-0140446451</CatalogNumberListElement>
+        </CatalogNumberList>
+        <Creator Role="Translator">A. J. Krailsheimer</Creator>
+        <Creator Role="Introduction">A. J. Krailsheimer</Creator>
+        <EAN>9780140446456</EAN>
+        <EANList>
+          <EANListElement>9780140446456</EANListElement>
+        </EANList>
+        <Edition>Reissue</Edition>
+        <ISBN>0140446451</ISBN>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">780</Height>
+          <Length Units="hundredths-inches">510</Length>
+          <Weight Units="hundredths-pounds">60</Weight>
+          <Width Units="hundredths-inches">90</Width>
+        </ItemDimensions>
+        <Label>Penguin Classics</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1300</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$13.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Penguin Classics</Manufacturer>
+        <MPN>9780140446456</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>333</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">94</Height>
+          <Length Units="hundredths-inches">772</Length>
+          <Weight Units="hundredths-pounds">62</Weight>
+          <Width Units="hundredths-inches">504</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>9780140446456</PartNumber>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1995-12-01</PublicationDate>
+        <Publisher>Penguin Classics</Publisher>
+        <ReleaseDate>1995-12-01</ReleaseDate>
+        <Studio>Penguin Classics</Studio>
+        <Title>Pensees (Penguin Classics)</Title>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>B0082ST3K0</ASIN>
+      <DetailPageURL>http://www.amazon.com/Pascals-Pens%C3%A9es-Blaise-Pascal-ebook/dp/B0082ST3K0%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0082ST3K0</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Pascals-Pens%C3%A9es-Blaise-Pascal-ebook/dp/tech-data/B0082ST3K0%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0082ST3K0</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB0082ST3K0%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0082ST3K0</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB0082ST3K0%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0082ST3K0</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB0082ST3K0%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0082ST3K0</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B0082ST3K0%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0082ST3K0</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B0082ST3K0%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0082ST3K0</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B0082ST3K0%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0082ST3K0</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">50</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">107</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">333</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">73</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">107</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/518t7C6FixL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">333</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Blaise Pascal</Author>
+        <Binding>Kindle Edition</Binding>
+        <Creator Role="Introduction">T. S. (Thomas Stearns) Eliot</Creator>
+        <Format>Kindle eBook</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <NumberOfPages>338</NumberOfPages>
+        <ProductGroup>eBooks</ProductGroup>
+        <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+        <PublicationDate>2012-05-12</PublicationDate>
+        <ReleaseDate>2012-05-12</ReleaseDate>
+        <Title>Pascal's Pensées</Title>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>B004G8ZZUM</ASIN>
+      <DetailPageURL>http://www.amazon.com/Disney-Rapunzel-7cm-Figurine-Pascal/dp/B004G8ZZUM%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB004G8ZZUM</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Disney-Rapunzel-7cm-Figurine-Pascal/dp/tech-data/B004G8ZZUM%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004G8ZZUM</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB004G8ZZUM%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004G8ZZUM</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB004G8ZZUM%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004G8ZZUM</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB004G8ZZUM%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004G8ZZUM</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B004G8ZZUM%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004G8ZZUM</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B004G8ZZUM%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004G8ZZUM</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B004G8ZZUM%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004G8ZZUM</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">50</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">107</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">334</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41oXSnM9yAL._SL30_.jpg</URL>
+            <Height Units="pixels">20</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41oXSnM9yAL._SL75_.jpg</URL>
+            <Height Units="pixels">49</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41oXSnM9yAL._SL75_.jpg</URL>
+            <Height Units="pixels">49</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41oXSnM9yAL._SL110_.jpg</URL>
+            <Height Units="pixels">72</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41oXSnM9yAL._SL160_.jpg</URL>
+            <Height Units="pixels">105</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41oXSnM9yAL.jpg</URL>
+            <Height Units="pixels">327</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71V-yjPZs3L.jpg</URL>
+            <Height Units="pixels">980</Height>
+            <Width Units="pixels">1500</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51krRmi-itL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51krRmi-itL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">74</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51krRmi-itL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">74</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51krRmi-itL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">109</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51krRmi-itL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">158</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51krRmi-itL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">494</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71jKeHbK64L.jpg</URL>
+            <Height Units="pixels">1500</Height>
+            <Width Units="pixels">1481</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31buKF4%2Bb-L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31buKF4%2Bb-L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">51</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31buKF4%2Bb-L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">51</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31buKF4%2Bb-L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">75</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31buKF4%2Bb-L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">108</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31buKF4%2Bb-L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">339</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71fHw-iv74L.jpg</URL>
+            <Height Units="pixels">2560</Height>
+            <Width Units="pixels">1736</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">73</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">107</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/31flLRgPkLL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">334</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/61XpzKXIrXL.jpg</URL>
+            <Height Units="pixels">1500</Height>
+            <Width Units="pixels">1001</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Toy</Binding>
+        <Brand>Bullyland</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>4007176-124222</CatalogNumberListElement>
+          <CatalogNumberListElement>12422</CatalogNumberListElement>
+          <CatalogNumberListElement>GM-B004G8ZZUM</CatalogNumberListElement>
+        </CatalogNumberList>
+        <EAN>4007176124222</EAN>
+        <EANList>
+          <EANListElement>4007176124222</EANListElement>
+        </EANList>
+        <IsAdultProduct>0</IsAdultProduct>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">236</Height>
+          <Length Units="hundredths-inches">236</Length>
+          <Weight Units="hundredths-pounds">2</Weight>
+          <Width Units="hundredths-inches">118</Width>
+        </ItemDimensions>
+        <Label>Bullyland</Label>
+        <Languages>
+          <Language>
+            <Name>Italian</Name>
+            <Type>Manual</Type>
+          </Language>
+          <Language>
+            <Name>German</Name>
+            <Type>Manual</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Manual</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Manual</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Manual</Type>
+          </Language>
+        </Languages>
+        <Manufacturer>Bullyland</Manufacturer>
+        <ManufacturerMaximumAge Units="months">1188</ManufacturerMaximumAge>
+        <ManufacturerMinimumAge Units="months">36</ManufacturerMinimumAge>
+        <Model>BUL-12422</Model>
+        <MPN>BUL-12422</MPN>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">126</Height>
+          <Length Units="hundredths-inches">331</Length>
+          <Weight Units="hundredths-pounds">2</Weight>
+          <Width Units="hundredths-inches">236</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>BUL-12422</PartNumber>
+        <ProductGroup>Toy</ProductGroup>
+        <ProductTypeName>TOYS_AND_GAMES</ProductTypeName>
+        <Publisher>Bullyland</Publisher>
+        <SKU>B004G8ZZUM</SKU>
+        <Studio>Bullyland</Studio>
+        <Title>Disney Rapunzel 7cm Figurine: Pascal</Title>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>B004TILD6Y</ASIN>
+      <DetailPageURL>http://www.amazon.com/Pascal-John-Tulloch-ebook/dp/B004TILD6Y%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB004TILD6Y</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Pascal-John-Tulloch-ebook/dp/tech-data/B004TILD6Y%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004TILD6Y</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB004TILD6Y%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004TILD6Y</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB004TILD6Y%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004TILD6Y</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB004TILD6Y%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004TILD6Y</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B004TILD6Y%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004TILD6Y</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B004TILD6Y%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004TILD6Y</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B004TILD6Y%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004TILD6Y</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">50</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">107</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">333</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">73</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">107</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51tCdlC8qAL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">333</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/91a7unrcU5L.jpg</URL>
+            <Height Units="pixels">2560</Height>
+            <Width Units="pixels">1707</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>John Tulloch</Author>
+        <Binding>Kindle Edition</Binding>
+        <Creator Role="Editor">Mrs. (Margaret) Oliphant</Creator>
+        <Format>Kindle eBook</Format>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <NumberOfPages>216</NumberOfPages>
+        <ProductGroup>eBooks</ProductGroup>
+        <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+        <PublicationDate>2011-03-23</PublicationDate>
+        <ReleaseDate>2011-03-23</ReleaseDate>
+        <Title>Pascal</Title>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>B00IJNKZ4Q</ASIN>
+      <ParentASIN>B005GUAFMW</ParentASIN>
+      <DetailPageURL>http://www.amazon.com/Dr-Martens-Womens-Leather-Virginia/dp/B00IJNKZ4Q%3Fpsc%3D1%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00IJNKZ4Q</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Dr-Martens-Womens-Leather-Virginia/dp/tech-data/B00IJNKZ4Q%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00IJNKZ4Q</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00IJNKZ4Q%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00IJNKZ4Q</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00IJNKZ4Q%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00IJNKZ4Q</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00IJNKZ4Q%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00IJNKZ4Q</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B00IJNKZ4Q%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00IJNKZ4Q</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B00IJNKZ4Q%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00IJNKZ4Q</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B00IJNKZ4Q%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00IJNKZ4Q</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">71</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">151</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">472</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">28</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">71</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">71</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">104</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">151</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41skO%2BdX0YL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">472</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71TfzRp6GFL.jpg</URL>
+            <Height Units="pixels">1500</Height>
+            <Width Units="pixels">1416</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Shoes</Binding>
+        <Brand>Dr. Martens</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>T40802-Black-6</CatalogNumberListElement>
+          <CatalogNumberListElement>98576450006</CatalogNumberListElement>
+          <CatalogNumberListElement>1681948851</CatalogNumberListElement>
+          <CatalogNumberListElement>9895178680006</CatalogNumberListElement>
+          <CatalogNumberListElement>201370</CatalogNumberListElement>
+        </CatalogNumberList>
+        <ClothingSize>6 UK/US Ladies 8 M US</ClothingSize>
+        <Color>Black Virginia</Color>
+        <Creator Role="Designer">Dr. Martens</Creator>
+        <Department>womens</Department>
+        <EAN>0883985729605</EAN>
+        <EANList>
+          <EANListElement>0883985729605</EANListElement>
+        </EANList>
+        <Feature>Vibrant combat boot in smooth leather with iconic lug sole and heel pull tab</Feature>
+        <IsAdultProduct>0</IsAdultProduct>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">130</Weight>
+        </ItemDimensions>
+        <Label>Dr. Martens</Label>
+        <Manufacturer>Dr. Martens</Manufacturer>
+        <Model>Pascal-W</Model>
+        <MPN>R13512006</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">500</Height>
+          <Length Units="hundredths-inches">1350</Length>
+          <Weight Units="hundredths-pounds">385</Weight>
+          <Width Units="hundredths-inches">920</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>R13512006</PartNumber>
+        <ProductGroup>Shoes</ProductGroup>
+        <ProductTypeName>SHOES</ProductTypeName>
+        <Publisher>Dr. Martens</Publisher>
+        <Size>6 UK/US Ladies 8 M US</Size>
+        <Studio>Dr. Martens</Studio>
+        <Title>Dr. Martens Women's Pascal Leather,Black Virginia,6 UK/8 M US</Title>
+        <UPC>883985729605</UPC>
+        <UPCList>
+          <UPCListElement>883985729605</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>B0040HY98S</ASIN>
+      <DetailPageURL>http://www.amazon.com/Disney-Tangled-Figure-Chameleon-Pascal/dp/B0040HY98S%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0040HY98S</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Disney-Tangled-Figure-Chameleon-Pascal/dp/tech-data/B0040HY98S%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0040HY98S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB0040HY98S%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0040HY98S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB0040HY98S%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0040HY98S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB0040HY98S%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0040HY98S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B0040HY98S%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0040HY98S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B0040HY98S%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0040HY98S</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B0040HY98S%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0040HY98S</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL.jpg</URL>
+        <Height Units="pixels">300</Height>
+        <Width Units="pixels">300</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41fkN8rxjSL.jpg</URL>
+            <Height Units="pixels">300</Height>
+            <Width Units="pixels">300</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Toy</Binding>
+        <Brand>Disney</Brand>
+        <EAN>0843852038445</EAN>
+        <EANList>
+          <EANListElement>0843852038445</EANListElement>
+        </EANList>
+        <Feature>Disney Tangled 6 Inch Plush Figure Chameleon Pascal Green</Feature>
+        <IsAdultProduct>0</IsAdultProduct>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">250</Height>
+          <Length Units="hundredths-inches">800</Length>
+          <Weight Units="hundredths-pounds">12</Weight>
+          <Width Units="hundredths-inches">410</Width>
+        </ItemDimensions>
+        <Label>Disney</Label>
+        <Manufacturer>Disney</Manufacturer>
+        <ManufacturerMinimumAge Units="months">36</ManufacturerMinimumAge>
+        <MPN>LYSB0040HY98S-TOYS</MPN>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">250</Height>
+          <Length Units="hundredths-inches">800</Length>
+          <Weight Units="hundredths-pounds">15</Weight>
+          <Width Units="hundredths-inches">410</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>LYSB0040HY98S-TOYS</PartNumber>
+        <ProductGroup>Toy</ProductGroup>
+        <ProductTypeName>TOYS_AND_GAMES</ProductTypeName>
+        <Publisher>Disney</Publisher>
+        <Studio>Disney</Studio>
+        <Title>Disney Tangled 6 Inch Plush Figure Chameleon Pascal Green</Title>
+        <UPC>843852038445</UPC>
+        <UPCList>
+          <UPCListElement>843852038445</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>B00B7AW1MW</ASIN>
+      <DetailPageURL>http://www.amazon.com/Works-Blaise-Pascal-ebook/dp/B00B7AW1MW%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00B7AW1MW</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Works-Blaise-Pascal-ebook/dp/tech-data/B00B7AW1MW%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00B7AW1MW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00B7AW1MW%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00B7AW1MW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00B7AW1MW%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00B7AW1MW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00B7AW1MW%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00B7AW1MW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B00B7AW1MW%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00B7AW1MW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B00B7AW1MW%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00B7AW1MW</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B00B7AW1MW%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00B7AW1MW</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">50</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">107</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">334</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">73</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">107</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41MTPF3eJ5L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">334</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/51z8m-0Ih1L.jpg</URL>
+            <Height Units="pixels">1000</Height>
+            <Width Units="pixels">667</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Blaise Pascal</Author>
+        <Binding>Kindle Edition</Binding>
+        <EISBN>9791021317970</EISBN>
+        <Format>Kindle eBook</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <Label>The Perfect Library</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <Manufacturer>The Perfect Library</Manufacturer>
+        <NumberOfPages>535</NumberOfPages>
+        <ProductGroup>eBooks</ProductGroup>
+        <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+        <PublicationDate>2013-01-28</PublicationDate>
+        <Publisher>The Perfect Library</Publisher>
+        <ReleaseDate>2013-01-28</ReleaseDate>
+        <Studio>The Perfect Library</Studio>
+        <Title>Works of Blaise Pascal</Title>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>0199540365</ASIN>
+      <DetailPageURL>http://www.amazon.com/Pens%C3%A9es-Writings-Oxford-Worlds-Classics/dp/0199540365%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0199540365</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Pens%C3%A9es-Writings-Oxford-Worlds-Classics/dp/tech-data/0199540365%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0199540365</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0199540365%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0199540365</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0199540365%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0199540365</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0199540365%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0199540365</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/0199540365%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0199540365</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/0199540365%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0199540365</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/0199540365%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0199540365</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">49</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">104</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">326</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/416kHHs9I5L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">19</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/416kHHs9I5L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">48</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/416kHHs9I5L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">48</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/416kHHs9I5L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">70</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/416kHHs9I5L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">101</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/416kHHs9I5L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">317</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/71g1028gVmL.jpg</URL>
+            <Height Units="pixels">1864</Height>
+            <Width Units="pixels">1180</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-K-%2BYDtkL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">22</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-K-%2BYDtkL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-K-%2BYDtkL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-K-%2BYDtkL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">82</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-K-%2BYDtkL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">120</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-K-%2BYDtkL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">375</Width>
+          </LargeImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">49</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">49</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">72</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">104</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51-dYu%2B76OL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">326</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/81wiJ8KXziL.jpg</URL>
+            <Height Units="pixels">1883</Height>
+            <Width Units="pixels">1228</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Blaise Pascal</Author>
+        <Binding>Paperback</Binding>
+        <Brand>Pascal, Blaise/ Levi, Honor (TRN)/ Levi, Anthony (EDT)</Brand>
+        <Creator Role="Editor">Anthony Levi</Creator>
+        <Creator Role="Translator">Honor Levi</Creator>
+        <EAN>9780199540365</EAN>
+        <EANList>
+          <EANListElement>9780199540365</EANListElement>
+        </EANList>
+        <Edition>1</Edition>
+        <ISBN>0199540365</ISBN>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">500</Height>
+          <Length Units="hundredths-inches">760</Length>
+          <Weight Units="hundredths-pounds">50</Weight>
+          <Width Units="hundredths-inches">80</Width>
+        </ItemDimensions>
+        <Label>Oxford University Press</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1195</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Oxford University Press</Manufacturer>
+        <MPN>9780199540365</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>320</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">55</Height>
+          <Length Units="hundredths-inches">764</Length>
+          <Weight Units="hundredths-pounds">49</Weight>
+          <Width Units="hundredths-inches">504</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>9780199540365</PartNumber>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2008-07-15</PublicationDate>
+        <Publisher>Oxford University Press</Publisher>
+        <Studio>Oxford University Press</Studio>
+        <Title>Pensées and Other Writings (Oxford World's Classics)</Title>
+      </ItemAttributes>
+    </Item>
+    <Item>
+      <ASIN>B01JLKP3IS</ASIN>
+      <DetailPageURL>http://www.amazon.com/NVIDIA-GeForce-Pascal-GDDR5X-900-1G611-2500-000/dp/B01JLKP3IS%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB01JLKP3IS</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/NVIDIA-GeForce-Pascal-GDDR5X-900-1G611-2500-000/dp/tech-data/B01JLKP3IS%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JLKP3IS</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB01JLKP3IS%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JLKP3IS</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB01JLKP3IS%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JLKP3IS</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB01JLKP3IS%26SubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JLKP3IS</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B01JLKP3IS%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JLKP3IS</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B01JLKP3IS%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JLKP3IS</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B01JLKP3IS%3FSubscriptionId%3DAKIAJGK33UXRN7XC6B6Q%26tag%3Djuanjowebsite-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JLKP3IS</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL._SL75_.jpg</URL>
+        <Height Units="pixels">38</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL._SL160_.jpg</URL>
+        <Height Units="pixels">81</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL.jpg</URL>
+        <Height Units="pixels">252</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41ex3o3jblL._SL30_.jpg</URL>
+            <Height Units="pixels">14</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41ex3o3jblL._SL75_.jpg</URL>
+            <Height Units="pixels">34</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41ex3o3jblL._SL75_.jpg</URL>
+            <Height Units="pixels">34</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41ex3o3jblL._SL110_.jpg</URL>
+            <Height Units="pixels">50</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41ex3o3jblL._SL160_.jpg</URL>
+            <Height Units="pixels">72</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41ex3o3jblL.jpg</URL>
+            <Height Units="pixels">226</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/81temawIfjL.jpg</URL>
+            <Height Units="pixels">1157</Height>
+            <Width Units="pixels">2560</Width>
+          </HiResImage>
+        </ImageSet>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL._SL30_.jpg</URL>
+            <Height Units="pixels">15</Height>
+            <Width Units="pixels">30</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL._SL75_.jpg</URL>
+            <Height Units="pixels">38</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL._SL75_.jpg</URL>
+            <Height Units="pixels">38</Height>
+            <Width Units="pixels">75</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL._SL110_.jpg</URL>
+            <Height Units="pixels">55</Height>
+            <Width Units="pixels">110</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL._SL160_.jpg</URL>
+            <Height Units="pixels">81</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41Qjvdu63BL.jpg</URL>
+            <Height Units="pixels">252</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <HiResImage>
+            <URL>http://ecx.images-amazon.com/images/I/91dlHzoZzLL.jpg</URL>
+            <Height Units="pixels">1289</Height>
+            <Width Units="pixels">2560</Width>
+          </HiResImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Binding>Electronics</Binding>
+        <IsAdultProduct>0</IsAdultProduct>
+        <Label>NVIDIA</Label>
+        <Manufacturer>NVIDIA</Manufacturer>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">400</Height>
+          <Length Units="hundredths-inches">1300</Length>
+          <Width Units="hundredths-inches">700</Width>
+        </PackageDimensions>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>PC Accessory</ProductGroup>
+        <ProductTypeName>COMPUTER_COMPONENT</ProductTypeName>
+        <Publisher>NVIDIA</Publisher>
+        <Studio>NVIDIA</Studio>
+        <Title>NVIDIA GeForce Titan X Pascal 12GB GDDR5X (900-1G611-2500-000)</Title>
+      </ItemAttributes>
+    </Item>
+  </Items>
+</ItemSearchResponse>
